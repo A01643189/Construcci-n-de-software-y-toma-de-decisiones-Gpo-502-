@@ -1,0 +1,151 @@
+body {
+    /*background-image: url(Background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;¨¨*/
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.imagecontainer {
+    display: flex;
+    justify-content: center;
+    width: 750px;
+    height: 350px;
+}
+
+.imagecontainer-numeric {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 100px;
+    padding-left: 200px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.imagecontainer-strings {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 250px;
+    padding-left: 150px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.imagecontainer-boolean {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 200px;
+    padding-left: 185px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.imagecontainer-function {
+    display: flex;
+    justify-content: center;
+    width: 335px;
+    height: 185px;
+    padding-left: 190px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.imagecontainer-while {
+    display: flex;
+    justify-content: center;
+    width: 315px;
+    height: 165px;
+    padding-left: 190px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.imagecontainer-for {
+    display: flex;
+    justify-content: center;
+    width: 315px;
+    height: 165px;
+    padding-left: 190px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.imagecontainer-label {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 250px;
+    padding-left: 165px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(36, 36, 36);
+    font-size: 42px;
+    line-height: 52px;
+}
+
+h2 {
+    text-align: center;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(107, 107, 107);
+    font-size: 22px;
+    line-height: 28px;
+    
+}
+
+h3 {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(107, 107, 107);
+    font-size: 20px;
+    line-height: 32px;
+}
+
+ul {
+    font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(36, 36, 36);
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.list {
+    font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-style: bold;
+    font-weight: 700;
+    color: black;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+p {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(107, 107, 107);
+    font-size: 20px;
+    line-height: 32px;
+}
+
+h4 {
+    text-align: center;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: bold;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    line-height: 28px;
+}
