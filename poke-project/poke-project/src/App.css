@@ -1,0 +1,244 @@
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.layout {
+  height: 500px;
+  width: 350px;
+  background-color: #E9EBED;
+  border: solid 5px black;
+  border-radius: 0% 0% 20% 5%;
+  box-shadow: inset 0 0 10px black;
+}
+
+.sidebar {
+  height: 200px;
+  width: 300px;
+  border: solid 5px black;
+  background-color: #797687;
+  border-radius: 5% 5% 20% 5%;
+  margin-top: 30px;
+  margin-left: 20px;
+  position: relative;
+  box-shadow: inset 0 0 10px black;
+}
+
+.power {
+  height: 20px;
+  width: 20px;
+  background-color: #E31300;
+  border-radius: 100%;
+  position: absolute;
+  top: 60px;
+  left: 15px;
+
+}
+
+.battery {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 10px;
+  color: #ABADC2;
+  position: absolute;
+  top: 85px;
+  left: 7px;
+}
+
+.screen {
+  height: 150px;
+  width: 207px;
+  background-color: #9C9F4C;
+  border: solid 5px black;
+  position: absolute;
+  top: 20px;
+  left: 53px;
+  border-radius: 0% 0% 5% 0%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.d-pad {
+  height: 100px;
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 30px;
+  position: relative;
+}
+
+.middle {
+  height: 21px;
+  width: 21px;
+  background-color: black;
+  border: solid 5px black;
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  border-radius: 100%;
+}
+
+.up {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border: solid 5px black;
+  position: absolute;
+  top: 10px;
+  left: 35px;
+}
+
+.left {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border: solid 5px black;
+  position: absolute;
+  top: 35px;
+  left: 10px;
+
+}
+
+.right {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border: solid 5px black;
+  position: absolute;
+  top: 35px;
+  right: 5px;
+
+}
+
+.down {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border: solid 5px black;
+  position: absolute;
+  top: 60px;
+  left: 35px;
+
+}
+
+.nintendo {
+  position: absolute;
+  bottom: 120px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  color: #33315A;
+}
+
+.gameboy {
+  position: absolute;
+  bottom: 120px;
+  left: 62px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  color: #33315A;
+}
+
+.a-b-buttons {
+  height: 100px;
+  width: 120px;
+  margin-top: 15px;
+  margin-right: 10px;
+  display: grid;
+  gap: 5px 10px;
+  position: relative;
+}
+
+.b-button {
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  background-color: #A80C3A;
+  position: absolute;
+  top: 40px;
+}
+
+.a-button {
+  top: 10px;
+  right: 10px;
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  background-color: #A80C3A;
+  position: absolute;
+  top: 22px;
+  left: 60px;
+}
+
+.a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  color: #33315A;
+  transform: rotate(340deg);
+  position: absolute;
+  top: 60px;
+  left: 80px;
+}
+
+.b {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  color: #33315A;
+  transform: rotate(340deg);
+  position: absolute;
+  left: 20px;
+  top: 76px;
+}
+
+.select-start-buttons {
+  height: 100px;
+  width: 100px;
+  margin-top: 125px;
+  position: relative;
+}
+
+.select-button {
+  height: 10px;
+  width: 40px;
+  border-radius: 25%;
+  background-color: #B1ADC4;
+  position: absolute;
+  top: 20px;
+  right: 70px;
+  transform: rotate(340deg);
+}
+
+.select {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  color: #33315A;
+  position: absolute;
+  top: 30px;
+  right: 58px;
+  transform: rotate(340deg);
+}
+
+.start-button {
+  height: 10px;
+  width: 40px;
+  border-radius: 25%;
+  background-color: #B1ADC4;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  transform: rotate(340deg);
+}
+
+.start {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  color: #33315A;
+  position: absolute;
+  top: 30px;
+  left: 45px;
+  transform: rotate(340deg);
+}
+

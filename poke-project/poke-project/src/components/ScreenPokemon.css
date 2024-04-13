@@ -1,0 +1,21 @@
+.screen-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    overflow-y: auto;
+  }
+
+.screen-container::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+  
+.pokemon-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
