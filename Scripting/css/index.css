@@ -83,6 +83,65 @@ body {
     padding-top: 25px;
 }
 
+.imagecontainer-data {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 400px;
+    padding-left: 80px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.imagecontainer-methods {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 250px;
+    padding-left: 160px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.imagecontainer-objects {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 225px;
+    padding-left: 260px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.imagecontainer-react {
+    display: flex;
+    justify-content: center;
+    width: 750px;
+    height: 600px;
+    padding-right: 10px;
+}
+
+.imagecontainer-hooks {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 400x;
+    padding-left: 205px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.imagecontainer-usestate {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 300px;
+    padding-left: 230px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+
+}
+
 h1 {
     text-align: center;
     font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -146,6 +205,6 @@ h4 {
     font-style: bold;
     font-weight: 400;
     color: rgb(0, 0, 0);
-    font-size: 22px;
+    font-size: 30px;
     line-height: 28px;
 }

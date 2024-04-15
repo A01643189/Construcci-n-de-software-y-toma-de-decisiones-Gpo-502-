@@ -4,7 +4,7 @@
     <link rel="stylesheet" type='text/css' href="css/index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ScriptingA01643189</title>
+    <title>Scripting-A01643189</title>
 </head>
 <body>
 
@@ -32,6 +32,11 @@
             <ul>
                 <li><a href="#section1.1">∘1.1: Variables</a></li>
                 <li><a href="#section1.2">∘1.2: Cycles</a></li>
+                <li><a href="#section1.3">∘2.1: Data Structures: Objects and Arrays</a></li>
+            </ul>
+            <li><a href="#section2">> 2: React</a></li>
+            <ul>
+                <li><a href="#section2.1">∘2.1: : Hooks</a></li>
             </ul>
         </ul>
     </div>
@@ -118,6 +123,79 @@
     </div>
 
     <h3>In this example, the outerLoop label is applied to the outer for loop. When the condition (i === 1 && j === 1) is met, the break statement with the outerLoop label exits both the inner and outer loops.</h3>
+
+    <!--Data Structures-->
+
+    <h1 id="section1.3">Data Structures: Objects and Arrays</h1>
+
+    <h3>In JavaScript, numbers, booleans, and strings serve as the fundamental building blocks of data structures. These atomic values lay the foundation for more complex data representations.</h3>
+
+    <div class="imagecontainer-data">
+        <img src="images/Data.png" alt="Data"/>
+    </div>
+
+    <h4>Data Sets</h4>
+
+    <h3>To manage collections of data, arrays prove indispensable. Representing a sequence of elements, arrays facilitate efficient data manipulation. For instance, consider an array representing a list of prime numbers:</h3>
+
+    <div class="imagecontainer-while">
+        <img src="images/Array.png" alt="Array"/>
+    </div>
+
+    <h4>Methods</h4>
+
+    <h3>Both strings and arrays in JavaScript possess built-in methods to manipulate their contents. Methods like push() and pop() enable dynamic modification of array elements. Here's an example illustrating array manipulation methods:</h3>
+
+    <div class="imagecontainer-methods">
+        <img src="images/Methods.png" alt="Methods"/>
+    </div>
+    <h4>Objects</h4>
+
+    <h3>Objects in JavaScript provide a means to organize data using key-value pairs. By accessing properties, developers can retrieve or modify data within an object. Consider the following example:</h3>
+
+    <div class="imagecontainer-objects">
+        <img src="images/Objects.png" alt="Objects"/>
+    </div>
+
+    <h1 id="section2">React</h1>
+
+    <h2>React, a popular library for web and native user interfaces, introduces the concept of components. Components enable developers to build reusable and composable UI elements.</h2>
+
+    <div class="imagecontainer-react">
+        <img src="images/React.png" alt="React"/>
+    </div>
+
+    <h3>React its today an standard in and is the most used framework for web developing. One of the caracteristics of React are hooks which will be explained in no time.</h3>
+
+    <h1 id="section2.1">Hooks</h1>
+
+    <h3>React hooks provide a way to use state and other React features in functional components without writing a class. They allow developers to reuse stateful logic across different components. Here's an example of using custom hooks:</h3>
+
+    <div class="imagecontainer-hooks">
+        <img src="images/Hooks.png" alt="Hooks"/>
+    </div>
+
+    <h4>State</h4>
+
+    <h3>Components often need to change what is displayed on the screen as a result of interaction. Writing inside a form should update the text field, clicking "next" in an image carousel should change the displayed image; clicking a button to purchase a product should update the shopping cart.</h3>
+
+    <h3>Components need to "remember" things: the text field, the current image, the shopping cart. In React, this type of memory within components is known as state.</h3>
+
+    <h4>useState</h4>
+
+    <h3>The useState hook in React provides a simple way to add state management to functional components:</h3>
+
+    <div class="imagecontainer-usestate">
+        <img src="images/useState.png" alt="UseState"/>
+    </div>
+
+    <h4>useEffect</h4>
+
+    <h3>React hooks revolutionized how developers manage state and side effects in functional components. The useEffect hook allows functional components to perform side effects such as data fetching, subscriptions, or manual DOM manipulations. Here's an example:</h3>
+
+    <div class="imagecontainer-hooks">
+        <img src="images/UseEffect.png" alt="UseEffect"/>
+    </div>
 
 </body>
 </html>
